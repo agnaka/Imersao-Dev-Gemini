@@ -8,7 +8,16 @@ Desde já o agradecimento pelas aulas magníficas!
 **_Imagem do Site_**
 A imagem de background foi solicitada ao Gemini especificando o mais possível no prompt o que estava querendo.
 
-<img src="assets/site.jpg" >
+<div style="display: flex; align-items: center; gap: 50px;">
+  <figure>
+    <img src="assets/site.jpg" height="200" alt="Imagem do site">
+    <figcaption>Tela computador</figcaption>
+  </figure>
+  <figure>
+    <img src="assets/site-cel.jpg" height="200" alt="Imagem do site mobile">
+    <figcaption>Tela celular</figcaption>
+  </figure>
+</div></br>
 
 **O que faz essa aplicação?**
 
@@ -22,9 +31,13 @@ Essa aplicação simples e divertida permite que você pesquise por seus tenista
 
 **Tecnologias utilizadas:**
 
-* **HTML:** A estrutura básica da página.
-* **CSS:** Para deixar tudo bonitinho e estilizado.
-* **JavaScript:** A mágica por trás da pesquisa e da exibição dos resultados.
+* <img src= "https://img.shields.io/badge/HTML-ec6231?logo=html5&logoColor=black"> 
+* <img src= "https://img.shields.io/badge/CSS-264de4?logo=css3&logoColor=black">
+* <img src= "https://img.shields.io/badge/JavaScript-f7df1e?logo=javascript&logoColor=black">
+
+**Responsividade:**
+
+Acrescentei as alterações para uso no celular. A foto dos tenistas pasó para ao lado do nome é ficou menor como assim a caixa dos resultados para caber na tela menor.
 
 **Como usar este projeto:**
 
