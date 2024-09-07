@@ -26,6 +26,11 @@ h1 {
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
 
+h2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 /* Estiliza as seções da página */
 section {
     display: flex; /* Usa Flexbox para layout */
@@ -69,17 +74,30 @@ section button {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #FFFFFF99;  /*Cor de fundo dos itens, com opacidade de 80% */
+    background: #FFFFFF90;  /*Cor de fundo dos itens, com opacidade de 90% */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */ 
+    display: flex; 
+}
+
+.item-resultado img {
+    width: 150px; /* Ajuste o valor para o tamanho desejado */
+    margin-right: 1rem; /* Espaçamento à direita da imagem */
+    object-fit: cover;
+  }
+
+.item-resultado-direita {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    color: #111316; /* Cor do texto */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
@@ -88,23 +106,33 @@ section button {
     color: #30475E; /* Cor do texto dos links */
 }
 
+section p {
+    font-size: 1rem;
+    background: #f7f4f490;
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+
+}
+
 /* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
-    cursor: url('assets/bolaTenis.png'), pointer, auto; /*Não esta pegando a imagem??? */
+    /*text-decoration: underline;  Adiciona sublinhado ao passar o mouse */
+    cursor: url('assets/bolaTenis.png'), default, auto; /*Não esta pegando a imagem??? */
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #000000;/* #45474B;  Cor do texto */
+    color: #45474B;/* #45474B;  Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
+    font-weight: 600;
 }
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #F5F7F8; /* Cor de fundo do rodapé */
-    color: #45474B; /* Cor do texto */
+    background-color: #F5F7F850; /* Cor de fundo do rodapé */
+    color: #0b0c0e; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
+    font-weight: 500;
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
     position: absolute; /* Posiciona o rodapé */
