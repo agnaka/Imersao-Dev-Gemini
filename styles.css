@@ -1,6 +1,10 @@
 /* Importa a fonte Chakra Petch do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+:root {
+    --cursor-bola:url('assets/bolaTenis.png') 12 12, pointer;
+}
+
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
@@ -31,6 +35,11 @@ h2 {
     align-items: center;
     gap: 20px;
 }
+
+.foto_pequena {
+    display: none;
+}
+
 /* Estiliza as seções da página */
 section {
     display: flex; /* Usa Flexbox para layout */
@@ -59,7 +68,7 @@ section button {
     background-color: #30475E; /* Cor de fundo do botão */
     color: #F5F7F8; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    cursor: var(--cursor-bola); /* Muda o cursor para ser mais */
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
@@ -117,7 +126,7 @@ section p {
 /* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
     /*text-decoration: underline;  Adiciona sublinhado ao passar o mouse */
-    cursor: url('assets/bolaTenis.png'), default, auto; /*Não esta pegando a imagem??? */
+    cursor: var(--cursor-bola); /* Muda o cursor para ser mais */
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */

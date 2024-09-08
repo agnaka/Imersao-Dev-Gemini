@@ -32,7 +32,7 @@ function pesquisar() {
           <img src="${dado.foto}" width='50' height= 'auto'>
             <div class="item-resultado-direita">
             <h2>                        
-              <a>${dado.titulo}</a> <img src="${dado.foto}" class="foto_pequena">
+              ${dado.titulo} <img src="${dado.foto}" class="foto_pequena">
             </h2>
             <p class="descricao-meta">${dado.descricao}</p>
             <a href=${dado.link} target="_blank">Mais informações</a>
