@@ -1,4 +1,4 @@
-### **Tenistas: A sua plataforma para fãs de tênis!** 
+### <h2>Tenistas: A sua plataforma para fãs de tênis!</h2> 
 **Considerações inicias**
 
 Este site faz parte da Imersão Dev com Google Gemini, ministrada pela Alura junto com a Google.
@@ -6,16 +6,16 @@ Instrutores Rafaella Ballerini e Guilherme Lima da Alura e Luciano Martins da Go
 Desde já o agradecimento pelas aulas magníficas!
 
 **_Imagem do Site_**
-A imagem de background foi solicitada ao Gemini especificando o mais possível no prompt o que estava querendo.
+A imagem do background foi solicitada ao Gemini especificando o mais possível no prompt o que estava querendo.
 
 <div style="display: flex; align-items: center; gap: 50px;">
   <figure>
     <img src="assets/site.jpg" height="200" alt="Imagem do site">
-    <figcaption>Tela computador</figcaption>
+    <sub>Tela computador</sub>
   </figure>
   <figure>
     <img src="assets/site-cel.jpg" height="200" alt="Imagem do site mobile">
-    <figcaption>Tela celular</figcaption>
+    <sub>Tela celular</sub>
   </figure>
 </div></br>
 
@@ -59,7 +59,9 @@ Adoraria ver suas contribuições! Se você tiver alguma ideia para melhorar a a
     * **Detalhes:** Mostrar mais detalhes sobre cada tenista, como títulos, estatísticas, etc.
 * **Goolge Gemini:** Todo o projeto foi assistido pelo Google Gemini, como este README que foi feito com ajuda dele.
 
-**Vamos juntos criar a melhor plataforma para fãs de tênis!** 
+<h2>Autor</h2> 
+
+<img loading="lazy" src= "https://avatars.githubusercontent.com/u/63744840?v=4" width=100></br><sub>Andrés Nakagawa</sub>
 
 **#tenistas #programação #javascript #html #css #open-source**
 
